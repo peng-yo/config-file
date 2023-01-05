@@ -11,7 +11,9 @@
         (t "~/.emacs.d/")))
 (setq make-backup-files nil
       auto-save-default t)
-
+;; fullscreen em
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(add-hook 'after-make-frame-functions 'toggle-frame-fullscreen)
 
 (defun load-user-file (file)
   (interactive "f")
@@ -20,6 +22,19 @@
 
 (load-user-file "kbd.el")
 (electric-pair-mode 1)
+(hl-line-mode t)
+(setq-default indent-tabs-mode nil)
+;; insert yes/or to y/n
+(defalias 'yes-or-no-p 'y-or-n-p)
+
+;; semx package
+(use-package smex
+  :ensure t
+  :config
+  (smex-initialize)
+  (global-set-key (kbd "M-x") 'smex)
+  (global-set-key (kbd "M-x") 'smex-major-mode-commands))
+
 
 (use-package helm
   :init
@@ -241,6 +256,7 @@
 (add-to-list 'org-structure-template-alist '("el" . "src emacs-lisp"))
 (add-to-list 'org-structure-template-alist '("py" . "src python"))
 
+
 (use-package which-key
   :config
   (which-key-mode)
@@ -312,8 +328,10 @@
 (add-hook 'go-mode-hook     #'lsp)
 (add-hook 'c++-mode-hook     #'lsp)
 (add-hook 'c-mode-hook     #'lsp)
-(add-hook 'java-mode-hook     #'lsp)
+;;(add-hook 'java-mode-hook     #'lsp)
 ;; Add more languages as needed
+(require 'lsp-java)
+(add-hook 'java-mode-hook #'lsp)
 
 
 (use-package lsp-ui
@@ -347,8 +365,9 @@
 
 
 (use-package term
+  :commands term
   :config
-  (setq explicit-shell-file-name "fish") ;; Change this to zsh, etc
+  (setq explicit-shell-file-name "zsh") ;; Change this to zsh, etc
   ;;(setq explicit-zsh-args '())         ;; Use 'explicit-<shell>-args for shell-specific args
 
   ;; Match the default Bash shell prompt.  Update this if you have a custom prompt
@@ -357,6 +376,27 @@
 
 (use-package eterm-256color
   :hook (term-mode . eterm-256color-mode))
-
+(use-package vterm
+  :commands vterm
+  :config
+  (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *")  ;; Set this to match your custom shell prompt
+  ;;(setq vterm-shell "zsh")                       ;; Set this to customize the shell to launch
+  (setq vterm-max-scrollback 10000))
 ;;(setq lsp-pyls-server-command "~/Library/Python/3.10/bin")
 (setq lsp-clients-pyls-library-directories "~/Library/Python/3.10/bin")
+(put 'downcase-region 'disabled nil)
+
+;; for java dev
+(use-package projectile)
+(use-package flycheck)
+(use-package yasnippet :config (yas-global-mode))
+(use-package lsp-mode :hook ((lsp-mode . lsp-enable-which-key-integration)))
+(use-package hydra)
+(use-package company)
+(use-package lsp-ui)
+(use-package which-key :config (which-key-mode))
+(use-package lsp-java :config (add-hook 'java-mode-hook 'lsp))
+(use-package dap-mode :after lsp-mode :config (dap-auto-configure-mode))
+(use-package dap-java :ensure nil)
+(use-package helm-lsp)
+(use-package yasnippet :ensure t)

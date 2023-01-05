@@ -39,7 +39,9 @@ set HOMEBREW_NO_AUTO_UPDATE 1
 
 set -gx PATH $PATH:/usr/local/bin
 set -gx PATH $PATH:/opt/homebrew/bin
+set -gx PATH $PATH:/opt/homebrew/sbin
 set -gx PATH $PATH:/Users/pengyo/Library/Python/3.10/bin
+set -gx PATH $PATH:/Users/pengyo/.cargo/bin
 set -x HOMEBREW_NO_AUTO_UPDATE 1
 set -x all_proxy socks5://127.0.0.1:7890
 git config --global http.proxy socks5://127.0.0.1:7890

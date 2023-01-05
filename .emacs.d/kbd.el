@@ -21,3 +21,10 @@
                  (lambda () (interactive) (eval-buffer)))
 
 (define-key key-translation-map (kbd "M-m") (kbd "C-@"))
+(define-prefix-command 'my-prefix-map)
+;; (global-set-key (kbd "C-b") 'left-char)
+
+(general-define-key
+ "C-c b" 'buffer-menu
+ "C-c k" 'kill-this-buffer
+ "C-c e" 'eval-buffer)
