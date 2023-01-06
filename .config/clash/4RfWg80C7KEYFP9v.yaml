@@ -20,9 +20,9 @@ proxies:
   - {name: 🇺🇸 美国4m-VIP2, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /us4-Ld888MRvt, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇳🇱 荷兰a-VIP2, server: eua.myddns.cyou, port: 11848, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇳🇱 荷兰b-VIP2, server: eub.myddns.cyou, port: 11848, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇭🇰 香港bcm-VIP2, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkc1-K9XYW0dkj, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇭🇰 香港bgm-VIP2, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkg-K9XYW0dkj, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 香港bt1m-VIP2, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkt1-3d5K9XYW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
+  - {name: 🇭🇰 香港cb-VIP2, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkc1-K9XYW0dkj, headers: {Host: hkbm.myddns.cyou}}, udp: true}
+  - {name: 🇭🇰 香港t1b-VIP2, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkt1-3d5K9XYW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: bt下载专用, server: rua.myddns.cyou, port: 11819, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 俄国a, server: rua.myddns.cyou, port: 11812, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 俄国b, server: rub.myddns.cyou, port: 11812, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
@@ -33,7 +33,7 @@ proxies:
   - {name: 🇮🇳 印度bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /in1-video2N93n, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇹🇼 台湾0a, server: twa.myddns.cyou, port: 11348, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇹🇼 台湾0bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tw0-ajbC8W9bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇹🇼 台湾1a, server: tw1a.myddns.cyou, port: 11822, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇹🇼 台湾1a, server: hkas.myddns.cyou, port: 11822, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇹🇼 台湾1bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /RayjajbC8W96bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇹🇼 台湾2a, server: hkas.myddns.cyou, port: 11346, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇹🇼 台湾2bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hi2-C8W96bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
@@ -45,7 +45,7 @@ proxies:
   - {name: 🇮🇹 意大利b, server: eub.myddns.cyou, port: 11810, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇯🇵 日本1a, server: jpa.myddns.cyou, port: 11840, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇯🇵 日本1bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jp1-h9vBzdF, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇯🇵 日本2a, server: jp2a.myddns.cyou, port: 11343, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇯🇵 日本2a, server: jpa.myddns.cyou, port: 11343, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇯🇵 日本2bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jp2-RayjW96bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇯🇵 日本3a, server: jpa.myddns.cyou, port: 11821, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇯🇵 日本3bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jp3-Ra20236bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
@@ -59,11 +59,11 @@ proxies:
   - {name: 🇸🇬 狮城1bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sg1-h9vBzdF, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇸🇬 狮城2a, server: sga.myddns.cyou, port: 11842, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇸🇬 狮城2bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sg2-HoI6Wt95h, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇸🇬 狮城3a, server: sga3.myddns.cyou, port: 11843, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇸🇬 狮城3a, server: sga.myddns.cyou, port: 11843, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇸🇬 狮城3bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v46-nfvideo2Nn, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇺🇸 美国-洛杉矶a, server: jpa.myddns.cyou, port: 11342, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇺🇸 美国-洛杉矶bm, server: jpb.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /9r89pXpijhN, headers: {Host: jpb.myddns.cyou}}, udp: true}
-  - {name: 🇺🇸 美国-西雅图a, server: us1a.myddns.cyou, port: 11849, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇺🇸 美国-西雅图a, server: jpa.myddns.cyou, port: 11849, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇺🇸 美国-西雅图bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /us1-Ldl5OMRvt, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇺🇸 美国3m, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /us3-Rayj8W9bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇺🇸 美国4m, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /us4-Ld888MRvt, headers: {Host: hkbm.myddns.cyou}}, udp: true}
@@ -79,20 +79,20 @@ proxies:
   - {name: 🇦🇪 迪拜-阿联酋bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aedubai888, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇦🇷 阿根廷a, server: jpa.myddns.cyou, port: 11847, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇦🇷 阿根廷bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /agt-fEtCE3uAcU, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇰🇷 韩国1a, server: kr1a.myddns.cyou, port: 11347, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇰🇷 韩国1a, server: jpa.myddns.cyou, port: 11347, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇰🇷 韩国1bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /kr8dKT9BkwBcw, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 香港ac, server: hkas.myddns.cyou, port: 11823, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇭🇰 香港ag, server: hkas.myddns.cyou, port: 11349, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇭🇰 香港at1, server: hkas.myddns.cyou, port: 11344, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇭🇰 香港at2, server: hkas.myddns.cyou, port: 11345, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇭🇰 香港at3, server: hkas.myddns.cyou, port: 11340, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇭🇰 香港aw, server: hkas.myddns.cyou, port: 11341, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇭🇰 香港bcm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkc1-K9XYW0dkj, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇭🇰 香港bgm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkg-K9XYW0dkj, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 香港bt1m, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkt1-3d5K9XYW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇭🇰 香港bt2m, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkt2-3d5K9XYW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇭🇰 香港bt3m, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkt3-3d5K9XYW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇭🇰 香港bwm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkw-3d5K9XYW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
+  - {name: 🇭🇰 香港ca, server: hkas.myddns.cyou, port: 11823, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇭🇰 香港cb, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkc1-K9XYW0dkj, headers: {Host: hkbm.myddns.cyou}}, udp: true}
+  - {name: 🇭🇰 香港t1a, server: hkas.myddns.cyou, port: 11344, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇭🇰 香港t1b, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkt1-3d5K9XYW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇲🇾 马来西亚bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ma-dKT9BkwBcw, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🏳️‍🌈 不限流量-俄国-v10, server: v10.toddns.tk, port: 80, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ZPK2023jLBEy, headers: {Host: v10.toddns.tk}}, udp: true}
   - {name: 🏳️‍🌈 不限流量-俄国-v10a, server: v10a.toddns.tk, port: 80, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ZPK2023jLBEy, headers: {Host: v10a.toddns.tk}}, udp: true}
@@ -125,9 +125,9 @@ proxy-groups:
       - 🇺🇸 美国4m-VIP2
       - 🇳🇱 荷兰a-VIP2
       - 🇳🇱 荷兰b-VIP2
-      - 🇭🇰 香港bcm-VIP2
       - 🇭🇰 香港bgm-VIP2
-      - 🇭🇰 香港bt1m-VIP2
+      - 🇭🇰 香港cb-VIP2
+      - 🇭🇰 香港t1b-VIP2
       - bt下载专用
       - 俄国a
       - 俄国b
@@ -186,18 +186,18 @@ proxy-groups:
       - 🇦🇷 阿根廷bm
       - 🇰🇷 韩国1a
       - 🇰🇷 韩国1bm
-      - 🇭🇰 香港ac
       - 🇭🇰 香港ag
-      - 🇭🇰 香港at1
       - 🇭🇰 香港at2
       - 🇭🇰 香港at3
       - 🇭🇰 香港aw
-      - 🇭🇰 香港bcm
       - 🇭🇰 香港bgm
-      - 🇭🇰 香港bt1m
       - 🇭🇰 香港bt2m
       - 🇭🇰 香港bt3m
       - 🇭🇰 香港bwm
+      - 🇭🇰 香港ca
+      - 🇭🇰 香港cb
+      - 🇭🇰 香港t1a
+      - 🇭🇰 香港t1b
       - 🇲🇾 马来西亚bm
       - 🏳️‍🌈 不限流量-俄国-v10
       - 🏳️‍🌈 不限流量-俄国-v10a
@@ -229,9 +229,9 @@ proxy-groups:
       - 🇺🇸 美国4m-VIP2
       - 🇳🇱 荷兰a-VIP2
       - 🇳🇱 荷兰b-VIP2
-      - 🇭🇰 香港bcm-VIP2
       - 🇭🇰 香港bgm-VIP2
-      - 🇭🇰 香港bt1m-VIP2
+      - 🇭🇰 香港cb-VIP2
+      - 🇭🇰 香港t1b-VIP2
       - bt下载专用
       - 俄国a
       - 俄国b
@@ -290,18 +290,18 @@ proxy-groups:
       - 🇦🇷 阿根廷bm
       - 🇰🇷 韩国1a
       - 🇰🇷 韩国1bm
-      - 🇭🇰 香港ac
       - 🇭🇰 香港ag
-      - 🇭🇰 香港at1
       - 🇭🇰 香港at2
       - 🇭🇰 香港at3
       - 🇭🇰 香港aw
-      - 🇭🇰 香港bcm
       - 🇭🇰 香港bgm
-      - 🇭🇰 香港bt1m
       - 🇭🇰 香港bt2m
       - 🇭🇰 香港bt3m
       - 🇭🇰 香港bwm
+      - 🇭🇰 香港ca
+      - 🇭🇰 香港cb
+      - 🇭🇰 香港t1a
+      - 🇭🇰 香港t1b
       - 🇲🇾 马来西亚bm
       - 🏳️‍🌈 不限流量-俄国-v10
       - 🏳️‍🌈 不限流量-俄国-v10a
@@ -334,9 +334,9 @@ proxy-groups:
       - 🇺🇸 美国4m-VIP2
       - 🇳🇱 荷兰a-VIP2
       - 🇳🇱 荷兰b-VIP2
-      - 🇭🇰 香港bcm-VIP2
       - 🇭🇰 香港bgm-VIP2
-      - 🇭🇰 香港bt1m-VIP2
+      - 🇭🇰 香港cb-VIP2
+      - 🇭🇰 香港t1b-VIP2
       - bt下载专用
       - 俄国a
       - 俄国b
@@ -395,18 +395,18 @@ proxy-groups:
       - 🇦🇷 阿根廷bm
       - 🇰🇷 韩国1a
       - 🇰🇷 韩国1bm
-      - 🇭🇰 香港ac
       - 🇭🇰 香港ag
-      - 🇭🇰 香港at1
       - 🇭🇰 香港at2
       - 🇭🇰 香港at3
       - 🇭🇰 香港aw
-      - 🇭🇰 香港bcm
       - 🇭🇰 香港bgm
-      - 🇭🇰 香港bt1m
       - 🇭🇰 香港bt2m
       - 🇭🇰 香港bt3m
       - 🇭🇰 香港bwm
+      - 🇭🇰 香港ca
+      - 🇭🇰 香港cb
+      - 🇭🇰 香港t1a
+      - 🇭🇰 香港t1b
       - 🇲🇾 马来西亚bm
       - 🏳️‍🌈 不限流量-俄国-v10
       - 🏳️‍🌈 不限流量-俄国-v10a
@@ -422,27 +422,27 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港bcm-VIP2
       - 🇭🇰 香港bgm-VIP2
-      - 🇭🇰 香港bt1m-VIP2
+      - 🇭🇰 香港cb-VIP2
+      - 🇭🇰 香港t1b-VIP2
       - 🇹🇼 台湾0a
       - 🇹🇼 台湾0bm
       - 🇹🇼 台湾1a
       - 🇹🇼 台湾1bm
       - 🇹🇼 台湾2a
       - 🇹🇼 台湾2bm
-      - 🇭🇰 香港ac
       - 🇭🇰 香港ag
-      - 🇭🇰 香港at1
       - 🇭🇰 香港at2
       - 🇭🇰 香港at3
       - 🇭🇰 香港aw
-      - 🇭🇰 香港bcm
       - 🇭🇰 香港bgm
-      - 🇭🇰 香港bt1m
       - 🇭🇰 香港bt2m
       - 🇭🇰 香港bt3m
       - 🇭🇰 香港bwm
+      - 🇭🇰 香港ca
+      - 🇭🇰 香港cb
+      - 🇭🇰 香港t1a
+      - 🇭🇰 香港t1b
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -464,9 +464,9 @@ proxy-groups:
       - 🇺🇸 美国4m-VIP2
       - 🇳🇱 荷兰a-VIP2
       - 🇳🇱 荷兰b-VIP2
-      - 🇭🇰 香港bcm-VIP2
       - 🇭🇰 香港bgm-VIP2
-      - 🇭🇰 香港bt1m-VIP2
+      - 🇭🇰 香港cb-VIP2
+      - 🇭🇰 香港t1b-VIP2
       - bt下载专用
       - 俄国a
       - 俄国b
@@ -525,18 +525,18 @@ proxy-groups:
       - 🇦🇷 阿根廷bm
       - 🇰🇷 韩国1a
       - 🇰🇷 韩国1bm
-      - 🇭🇰 香港ac
       - 🇭🇰 香港ag
-      - 🇭🇰 香港at1
       - 🇭🇰 香港at2
       - 🇭🇰 香港at3
       - 🇭🇰 香港aw
-      - 🇭🇰 香港bcm
       - 🇭🇰 香港bgm
-      - 🇭🇰 香港bt1m
       - 🇭🇰 香港bt2m
       - 🇭🇰 香港bt3m
       - 🇭🇰 香港bwm
+      - 🇭🇰 香港ca
+      - 🇭🇰 香港cb
+      - 🇭🇰 香港t1a
+      - 🇭🇰 香港t1b
       - 🇲🇾 马来西亚bm
       - 🏳️‍🌈 不限流量-俄国-v10
       - 🏳️‍🌈 不限流量-俄国-v10a
@@ -568,9 +568,9 @@ proxy-groups:
       - 🇺🇸 美国4m-VIP2
       - 🇳🇱 荷兰a-VIP2
       - 🇳🇱 荷兰b-VIP2
-      - 🇭🇰 香港bcm-VIP2
       - 🇭🇰 香港bgm-VIP2
-      - 🇭🇰 香港bt1m-VIP2
+      - 🇭🇰 香港cb-VIP2
+      - 🇭🇰 香港t1b-VIP2
       - bt下载专用
       - 俄国a
       - 俄国b
@@ -629,18 +629,18 @@ proxy-groups:
       - 🇦🇷 阿根廷bm
       - 🇰🇷 韩国1a
       - 🇰🇷 韩国1bm
-      - 🇭🇰 香港ac
       - 🇭🇰 香港ag
-      - 🇭🇰 香港at1
       - 🇭🇰 香港at2
       - 🇭🇰 香港at3
       - 🇭🇰 香港aw
-      - 🇭🇰 香港bcm
       - 🇭🇰 香港bgm
-      - 🇭🇰 香港bt1m
       - 🇭🇰 香港bt2m
       - 🇭🇰 香港bt3m
       - 🇭🇰 香港bwm
+      - 🇭🇰 香港ca
+      - 🇭🇰 香港cb
+      - 🇭🇰 香港t1a
+      - 🇭🇰 香港t1b
       - 🇲🇾 马来西亚bm
       - 🏳️‍🌈 不限流量-俄国-v10
       - 🏳️‍🌈 不限流量-俄国-v10a
@@ -673,9 +673,9 @@ proxy-groups:
       - 🇺🇸 美国4m-VIP2
       - 🇳🇱 荷兰a-VIP2
       - 🇳🇱 荷兰b-VIP2
-      - 🇭🇰 香港bcm-VIP2
       - 🇭🇰 香港bgm-VIP2
-      - 🇭🇰 香港bt1m-VIP2
+      - 🇭🇰 香港cb-VIP2
+      - 🇭🇰 香港t1b-VIP2
       - bt下载专用
       - 俄国a
       - 俄国b
@@ -734,18 +734,18 @@ proxy-groups:
       - 🇦🇷 阿根廷bm
       - 🇰🇷 韩国1a
       - 🇰🇷 韩国1bm
-      - 🇭🇰 香港ac
       - 🇭🇰 香港ag
-      - 🇭🇰 香港at1
       - 🇭🇰 香港at2
       - 🇭🇰 香港at3
       - 🇭🇰 香港aw
-      - 🇭🇰 香港bcm
       - 🇭🇰 香港bgm
-      - 🇭🇰 香港bt1m
       - 🇭🇰 香港bt2m
       - 🇭🇰 香港bt3m
       - 🇭🇰 香港bwm
+      - 🇭🇰 香港ca
+      - 🇭🇰 香港cb
+      - 🇭🇰 香港t1a
+      - 🇭🇰 香港t1b
       - 🇲🇾 马来西亚bm
       - 🏳️‍🌈 不限流量-俄国-v10
       - 🏳️‍🌈 不限流量-俄国-v10a
@@ -787,9 +787,9 @@ proxy-groups:
       - 🇺🇸 美国4m-VIP2
       - 🇳🇱 荷兰a-VIP2
       - 🇳🇱 荷兰b-VIP2
-      - 🇭🇰 香港bcm-VIP2
       - 🇭🇰 香港bgm-VIP2
-      - 🇭🇰 香港bt1m-VIP2
+      - 🇭🇰 香港cb-VIP2
+      - 🇭🇰 香港t1b-VIP2
       - bt下载专用
       - 俄国a
       - 俄国b
@@ -848,18 +848,18 @@ proxy-groups:
       - 🇦🇷 阿根廷bm
       - 🇰🇷 韩国1a
       - 🇰🇷 韩国1bm
-      - 🇭🇰 香港ac
       - 🇭🇰 香港ag
-      - 🇭🇰 香港at1
       - 🇭🇰 香港at2
       - 🇭🇰 香港at3
       - 🇭🇰 香港aw
-      - 🇭🇰 香港bcm
       - 🇭🇰 香港bgm
-      - 🇭🇰 香港bt1m
       - 🇭🇰 香港bt2m
       - 🇭🇰 香港bt3m
       - 🇭🇰 香港bwm
+      - 🇭🇰 香港ca
+      - 🇭🇰 香港cb
+      - 🇭🇰 香港t1a
+      - 🇭🇰 香港t1b
       - 🇲🇾 马来西亚bm
       - 🏳️‍🌈 不限流量-俄国-v10
       - 🏳️‍🌈 不限流量-俄国-v10a

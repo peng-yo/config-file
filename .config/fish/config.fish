@@ -15,6 +15,9 @@ alias la "ls -A"
 alias ll "ls -lha"
 alias lla "ll -A"
 alias bi "brew install"
+alias py "python3"
+alias si "sioyek"
+alias op open
 alias g git
 alias ga "git add"
 alias gm "git commit -m"
@@ -42,8 +45,11 @@ set -gx PATH $PATH:/opt/homebrew/bin
 set -gx PATH $PATH:/opt/homebrew/sbin
 set -gx PATH $PATH:/Users/pengyo/Library/Python/3.10/bin
 set -gx PATH $PATH:/Users/pengyo/.cargo/bin
+set -gx PATH $PATH:/opt/homebrew/opt/llvm/bin
+set -gx LDFLAGS "-L/opt/homebrew/opt/llvm/lib"
+set -gx CPPFLAGS "-I/opt/homebrew/opt/llvm/include"
 set -x HOMEBREW_NO_AUTO_UPDATE 1
-set -x all_proxy socks5://127.0.0.1:7890
+# set -x all_proxy socks5://127.0.0.1:7890
 git config --global http.proxy socks5://127.0.0.1:7890
 git config --global https.proxy socks5://127.0.0.1:7890
 # autojump

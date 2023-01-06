@@ -298,7 +298,17 @@
 (use-package company-box
   :hook (company-mode . company-box-mode))
 
+(defun efs/lsp-mode-setup ()
+  (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
+  (lsp-headerline-breadcrumb-mode))
 
+(use-package lsp-mode
+  :commands (lsp lsp-deferred)
+  :hook (lsp-mode . efs/lsp-mode-setup)
+  :init
+  (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
+  :config
+  (lsp-enable-which-key-integration t))
 (use-package lsp-ui
   :hook (lsp-mode . lsp-ui-mode))
 
@@ -401,3 +411,16 @@
 (use-package helm-lsp)
 (use-package yasnippet :ensure t)
 
+# NO ADDITIONAL IMPORTS ALLOWED!
+;; Enable autopep8
+(use-package py-autopep8
+  :config
+  (setq py-autopep8-options '("--max-line-length=100" "--aggressive"))
+  :hook ((python-mode) . py-autopep8-mode))
+
+(use-package python-black
+  :demand t
+  :after python
+  :hook (python-mode . python-black-on-save-mode-enable-dwim))
+
+(require 'smartparens-config)

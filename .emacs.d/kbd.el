@@ -27,4 +27,9 @@
 (general-define-key
  "C-c b" 'buffer-menu
  "C-c k" 'kill-this-buffer
- "C-c e" 'eval-buffer)
+ "C-c e" 'eval-buffer
+ "C-c t" 'term
+ "C-c s" 'switch-to-buffer
+ "C-c C-a" 'treemacs
+ "C-c C-w" 'treemacs--add-project-to-current-workspace
+ )
