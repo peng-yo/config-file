@@ -57,7 +57,7 @@
 (defvar efs/default-variable-font-size 180)
 
 ;; Make frame transparency overridable
-(defvar efs/frame-transparency '(90 . 90))
+(defvar efs/frame-transparency '(95 . 95))
 
 
 ;; Initialize package sources
@@ -411,7 +411,7 @@
 (use-package helm-lsp)
 (use-package yasnippet :ensure t)
 
-# NO ADDITIONAL IMPORTS ALLOWED!
+;;# NO ADDITIONAL IMPORTS ALLOWED!
 ;; Enable autopep8
 (use-package py-autopep8
   :config

@@ -32,23 +32,23 @@ proxies:
   - {name: 🇮🇳 印度a, server: hkas.myddns.cyou, port: 11818, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇮🇳 印度bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /in1-video2N93n, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇹🇼 台湾0a, server: twa.myddns.cyou, port: 11348, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇹🇼 台湾0bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tw0-ajbC8W9bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇹🇼 台湾1a, server: hkas.myddns.cyou, port: 11822, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇹🇼 台湾1bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /RayjajbC8W96bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇹🇼 台湾2a, server: hkas.myddns.cyou, port: 11346, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇹🇼 台湾2bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hi2-C8W96bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇹🇷 土耳其a, server: hkas.myddns.cyou, port: 11815, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇹🇷 土耳其b, server: hkbs.myddns.cyou, port: 11815, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇹🇼 台湾0bm, server: twb.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tw0-ajbC8W9bW, headers: {Host: twb.myddns.cyou}}, udp: true}
+  - {name: 🇹🇼 台湾1a, server: twa.myddns.cyou, port: 11822, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇹🇼 台湾1bm, server: twb.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /RayjajbC8W96bW, headers: {Host: twb.myddns.cyou}}, udp: true}
+  - {name: 🇹🇼 台湾2a, server: twa.myddns.cyou, port: 11346, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇹🇼 台湾2bm, server: twb.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hi2-C8W96bW, headers: {Host: twb.myddns.cyou}}, udp: true}
+  - {name: 🇹🇷 土耳其a, server: ae1.myddns.cyou, port: 11815, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇹🇷 土耳其b, server: ae1.myddns.cyou, port: 11815, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇩🇪 德国a, server: eua.myddns.cyou, port: 11817, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇩🇪 德国bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /de41-HodxI6Wt95h, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇮🇹 意大利a, server: eua.myddns.cyou, port: 11810, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇮🇹 意大利b, server: eub.myddns.cyou, port: 11810, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇯🇵 日本1a, server: jpa.myddns.cyou, port: 11840, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇯🇵 日本1bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jp1-h9vBzdF, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇯🇵 日本2a, server: jpa.myddns.cyou, port: 11343, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇯🇵 日本2bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jp2-RayjW96bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇯🇵 日本3a, server: jpa.myddns.cyou, port: 11821, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇯🇵 日本3bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jp3-Ra20236bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
+  - {name: 🇯🇵 日本1a, server: jpas.myddns.cyou, port: 11840, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇯🇵 日本1bm, server: jpbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jp1-h9vBzdF, headers: {Host: jpbm.myddns.cyou}}, udp: true}
+  - {name: 🇯🇵 日本2a, server: jpas.myddns.cyou, port: 11343, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇯🇵 日本2bm, server: jpbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jp2-RayjW96bW, headers: {Host: jpbm.myddns.cyou}}, udp: true}
+  - {name: 🇯🇵 日本3a, server: jpas.myddns.cyou, port: 11821, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇯🇵 日本3bm, server: jpbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jp3-Ra20236bW, headers: {Host: jpbm.myddns.cyou}}, udp: true}
   - {name: 🇫🇷 法国a, server: eua.myddns.cyou, port: 11816, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇫🇷 法国b, server: eub.myddns.cyou, port: 11816, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇹🇭 泰国a, server: hkas.myddns.cyou, port: 11846, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
@@ -76,11 +76,11 @@ proxies:
   - {name: 🇻🇳 越南a, server: hkas.myddns.cyou, port: 11820, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇻🇳 越南bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vn99BkwBcw, headers: {Host: hkbm.myddns.cyou}}, udp: true}
   - {name: 🇦🇪 迪拜-阿联酋a, server: ae1.myddns.cyou, port: 11813, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇦🇪 迪拜-阿联酋bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aedubai888, headers: {Host: hkbm.myddns.cyou}}, udp: true}
+  - {name: 🇦🇪 迪拜-阿联酋bm, server: ae1.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aedubai888, headers: {Host: ae1.myddns.cyou}}, udp: true}
   - {name: 🇦🇷 阿根廷a, server: jpa.myddns.cyou, port: 11847, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇦🇷 阿根廷bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /agt-fEtCE3uAcU, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇰🇷 韩国1a, server: jpa.myddns.cyou, port: 11347, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
-  - {name: 🇰🇷 韩国1bm, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /kr8dKT9BkwBcw, headers: {Host: hkbm.myddns.cyou}}, udp: true}
+  - {name: 🇰🇷 韩国1a, server: jpas.myddns.cyou, port: 11347, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
+  - {name: 🇰🇷 韩国1bm, server: jpbm.myddns.cyou, port: 11809, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /kr8dKT9BkwBcw, headers: {Host: jpbm.myddns.cyou}}, udp: true}
   - {name: 🇭🇰 香港ag, server: hkas.myddns.cyou, port: 11349, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇭🇰 香港at2, server: hkas.myddns.cyou, port: 11345, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
   - {name: 🇭🇰 香港at3, server: hkas.myddns.cyou, port: 11340, type: ss, cipher: aes-256-gcm, password: ZYR1mT, udp: true}
@@ -100,8 +100,8 @@ proxies:
   - {name: 🏳️‍🌈 不限流量-法国-v140a, server: v140a.toddns.tk, port: 80, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fr-unlimitxxx, headers: {Host: v140a.toddns.tk}}, udp: true}
   - {name: 🏳️‍🌈 不限流量-美国-v125, server: v125.toddns.tk, port: 80, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /usv125N93nz6Py, headers: {Host: v125.toddns.tk}}, udp: true}
   - {name: 🏳️‍🌈 不限流量-美国-v125a, server: v125a.toddns.tk, port: 80, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /usv125N93nz6Py, headers: {Host: v125a.toddns.tk}}, udp: true}
-  - {name: 🏳️‍🌈 不限流量-美国-v47, server: v47.toddns.tk, port: 80, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47.toddns.tk}}, udp: true}
-  - {name: 🏳️‍🌈 不限流量-美国-v47a, server: v47a.toddns.tk, port: 80, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47a.toddns.tk}}, udp: true}
+  - {name: 🏳️‍🌈 不限流量-美国-v47, server: v47.toddns.tk, port: 80, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v47-2023unlimitndxd, headers: {Host: v47.toddns.tk}}, udp: true}
+  - {name: 🏳️‍🌈 不限流量-美国-v47a, server: v47a.toddns.tk, port: 80, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v47-2023unlimitndxd, headers: {Host: v47a.toddns.tk}}, udp: true}
   - {name: 🏳️‍🌈 不限流量-荷兰-v141, server: v12.toddns.tk, port: 80, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nl-unlimitxxx, headers: {Host: v12.toddns.tk}}, udp: true}
   - {name: 🏳️‍🌈 不限流量-荷兰-v155, server: v12a.toddns.tk, port: 80, type: vmess, uuid: e301093a-ac5e-3096-9b53-6e1f7422248f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nl-unlimitxxx, headers: {Host: v12a.toddns.tk}}, udp: true}
 proxy-groups:

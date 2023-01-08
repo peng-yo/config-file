@@ -33,3 +33,5 @@
  "C-c C-a" 'treemacs
  "C-c C-w" 'treemacs--add-project-to-current-workspace
  )
+(global-unset-key (kbd "<escape>"))
+(global-set-key (kbd "<escape>") (kbd "C-g"))
