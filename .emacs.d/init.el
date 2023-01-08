@@ -386,13 +386,8 @@
 
 (use-package eterm-256color
   :hook (term-mode . eterm-256color-mode))
-(use-package vterm
-  :commands vterm
-  :config
-  (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *")  ;; Set this to match your custom shell prompt
-  ;;(setq vterm-shell "zsh")                       ;; Set this to customize the shell to launch
-  (setq vterm-max-scrollback 10000))
-;;(setq lsp-pyls-server-command "~/Library/Python/3.10/bin")
+
+
 (setq lsp-clients-pyls-library-directories "~/Library/Python/3.10/bin")
 (put 'downcase-region 'disabled nil)
 
@@ -424,3 +419,5 @@
   :hook (python-mode . python-black-on-save-mode-enable-dwim))
 
 (require 'smartparens-config)
+(put 'upcase-region 'disabled nil)
+(wrap-region-global-mode t)

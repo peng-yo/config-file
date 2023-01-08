@@ -32,6 +32,9 @@
  "C-c s" 'switch-to-buffer
  "C-c C-a" 'treemacs
  "C-c C-w" 'treemacs--add-project-to-current-workspace
+ "C-c m" 'magit-commit
+ "C-c M-r" 'sp-wrap-round
+ "C-c M-c" 'sp-wrap-curly
  )
 (global-unset-key (kbd "<escape>"))
 (global-set-key (kbd "<escape>") (kbd "C-g"))
