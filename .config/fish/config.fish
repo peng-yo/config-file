@@ -6,7 +6,7 @@ set fish_greeting ""
 
 set -gx TERM xterm-256color
 set -g theme_short_path yes
-
+set -gx GUILE_AUTO_COMPILE 0
 # aliases
 
 alias ls "exa"
@@ -32,7 +32,6 @@ alias tnew "tmux new -s"
 alias cl "clear"
 alias md "mkdir"
 alias gll "git log --graph --decorate --oneline --all"
-alias glg "git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'"
 set -x PATH /usr/bin $PATH
 set -x PATH /bin $PATH
 set -x PATH /usr/local/sbin $PATH
@@ -53,16 +52,8 @@ set -x HOMEBREW_NO_AUTO_UPDATE 1
 git config --global http.proxy socks5://127.0.0.1:7890
 git config --global https.proxy socks5://127.0.0.1:7890
 # autojump
-[ -f /opt/homebrew/share/autojump/autojump.fish ]; and source /opt/homebrew/share/autojump/autojump.fish
+# [ -f /opt/homebrew/share/autojump/autojump.fish ]; and source /opt/homebrew/share/autojump/autojump.fish
 
 
 # Functions
-function sudo --description "Replacement for Bash 'sudo !!' command to run last command using sudo."
-    if test "$argv" = !!
-        echo sudo $history[1]
-        eval command sudo $history[1]
-    else
-        command sudo $argv
-    end
-end
 starship init fish | source

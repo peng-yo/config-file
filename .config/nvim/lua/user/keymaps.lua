@@ -130,6 +130,7 @@ vim.api.nvim_set_keymap("n", "<Leader>q", ":q<CR>", {silent = true, noremap = tr
 vim.api.nvim_set_keymap("n", "<Leader>nn", ":noh<CR>", {silent = true, noremap = true})
 vim.api.nvim_set_keymap("n", "<Leader>ss", ":w<CR>", {silent = true, noremap = true})
 vim.api.nvim_set_keymap("n", "<Leader>rc", ":e $HOME/.config/nvim/lua/user/keymaps.lua<CR>", {silent = true, noremap = true})
+vim.api.nvim_set_keymap("n", "<Leader>zs", ":e $HOME/.zshrc<CR>", {silent = true, noremap = true})
 vim.api.nvim_set_keymap("n", "<Leader>fi", ":e $HOME/.config/fish/config.fish<CR>", {silent = true, noremap = true})
 -- Map the mapleader key followed by aa to the ggVG command, which selects all text in the current buffer
 vim.api.nvim_set_keymap("n", "<Leader>aa", "ggVG", {silent = true, noremap = true})
