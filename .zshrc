@@ -109,6 +109,7 @@ alias py="python3"
 alias op=open
 alias g=git
 alias ga="git add"
+alias ga.="git add ."
 alias gm="git commit -m"
 alias gl="git log"
 alias gt="git status"

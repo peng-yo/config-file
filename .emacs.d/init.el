@@ -79,14 +79,14 @@
 (setq use-package-always-ensure t)
 
 
-(use-package auto-package-update
-  :custom
-  (auto-package-update-interval 7)
-  (auto-package-update-prompt-before-update t)
-  (auto-package-update-hide-results t)
-  :config
-  (auto-package-update-maybe)
-  (auto-package-update-at-time "09:00"))
+;; (use-package auto-package-update
+;;   :custom
+;;   (auto-package-update-interval 7)
+;;   (auto-package-update-prompt-before-update t)
+;;   (auto-package-update-hide-results t)
+;;   :config
+;;   (auto-package-update-maybe)
+;;   (auto-package-update-at-time "09:00"))
 
 
 ;; NOTE: If you want to move everything out of the ~/.emacs.d folder
@@ -277,7 +277,7 @@
   ;; Org-Mode initial setup
   (use-package org
     :bind
-    (("C-c l" . org-store-link)
+    (("C-c C-l" . org-store-link)
      ("C-c a" . org-agenda)
      ("C-c c" . org-capture)))
 ;;(set-frame-font "CaskaydiaCove NF 12" nil t)
