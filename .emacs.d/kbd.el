@@ -24,17 +24,44 @@
 (define-prefix-command 'my-prefix-map)
 ;; (global-set-key (kbd "C-b") 'left-char)
 
-(general-define-key
- "C-c b" 'buffer-menu
- "C-c k" 'kill-this-buffer
- "C-c e" 'eval-buffer
- "C-c t" 'term
- "C-c s" 'switch-to-buffer
- "C-c C-a" 'treemacs
- "C-c C-w" 'treemacs--add-project-to-current-workspace
- "C-c m" 'magit-commit
- "C-c M-r" 'sp-wrap-round
- "C-c M-c" 'sp-wrap-curly
+(general-create-definer my-leader-def
+  ;; :prefix my-leader
+  ;; or without a variable
+  :prefix "C-c")
+
+;; ** Global Keybindings
+(my-leader-def
+ "b" 'buffer-menu
+ "k" 'kill-this-buffer
+ "e" 'eval-buffer
+ "t" 'term
+ "s" 'switch-to-buffer
+ "C-a" 'treemacs
+ "C-w" 'treemacs--add-project-to-current-workspace
+ "m" 'magit-commit
+ "M-r" 'sp-wrap-round
+ "M-c" 'sp-wrap-curly
+ "RET" 'yas-expand
  )
+;; ** Mode Keybindings
+;; (my-leader-def
+;;  :keymaps 'c++-mode-map
+;;  :keymaps 'c-mode-map
+ 
+;;  )
 (global-unset-key (kbd "<escape>"))
 (global-set-key (kbd "<escape>") (kbd "C-g"))
+(defun code-compile ()
+  (interactive)
+  (unless (file-exists-p "Makefile")
+    (set (make-local-variable 'compile-command)
+     (let ((file (file-name-nondirectory buffer-file-name)))
+       (format "%s -o %s %s"
+           (if  (equal (file-name-extension file) "cpp") "g++" "gcc" )
+           (file-name-sans-extension file)
+           file)))
+    (compile compile-command)))
+
+(general-define-key
+ :keymaps 'c++-mode-map
+ "<f9>" 'code-compile)

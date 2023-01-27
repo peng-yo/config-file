@@ -23,7 +23,7 @@
 (load-user-file "kbd.el")
 (electric-pair-mode 1)
 (hl-line-mode t)
-(setq-default indent-tabs-mode nil)
+;; (setq-default indent-tabs-mode nil)
 ;; insert yes/or to y/n
 (defalias 'yes-or-no-p 'y-or-n-p)
 
@@ -405,7 +405,8 @@
 (use-package dap-java :ensure nil)
 (use-package helm-lsp)
 (use-package yasnippet :ensure t)
-
+(require 'yasnippet)
+(yas-global-mode 1)
 ;;# NO ADDITIONAL IMPORTS ALLOWED!
 ;; Enable autopep8
 (use-package py-autopep8
@@ -421,3 +422,34 @@
 (require 'smartparens-config)
 (put 'upcase-region 'disabled nil)
 (wrap-region-global-mode t)
+
+;; for dired confi
+(when (eq system-type 'darwin)
+  (setq insert-directory-program "/opt/homebrew/bin/gls"))
+(use-package dired
+  :ensure nil
+  :commands (dired dired-jump)
+  :bind (("C-x C-j" . dired-jump))
+  :custom ((dired-listing-switches "-agho --group-directories-first"))
+  :config
+  (evil-collection-define-key 'normal 'dired-mode-map
+    "h" 'dired-single-up-directory
+    "l" 'dired-single-buffer))
+
+(use-package dired-single)
+
+(use-package all-the-icons-dired
+  :hook (dired-mode . all-the-icons-dired-mode))
+
+(use-package dired-open
+  :config
+  ;; Doesn't work as expected!
+  ;;(add-to-list 'dired-open-functions #'dired-open-xdg t)
+  (setq dired-open-extensions '(("png" . "feh")
+                                ("mkv" . "mpv"))))
+
+(use-package dired-hide-dotfiles
+  :hook (dired-mode . dired-hide-dotfiles-mode)
+  :config
+  (evil-collection-define-key 'normal 'dired-mode-map
+    "H" 'dired-hide-dotfiles-mode))
