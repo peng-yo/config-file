@@ -58,6 +58,7 @@ return packer.startup(function(use)
 			})
 		end,
 	})
+	use({ "rcarriga/nvim-notify" })
 	use({ "ryanoasis/vim-devicons" })
 	use({ "terryma/vim-multiple-cursors" })
 	use({ "tpope/vim-surround" })

@@ -34,7 +34,7 @@
  "b" 'buffer-menu
  "k" 'kill-this-buffer
  "e" 'eval-buffer
- "t" 'term
+ "t" 'vterm-other-window
  "s" 'switch-to-buffer
  "C-a" 'treemacs
  "C-w" 'treemacs--add-project-to-current-workspace

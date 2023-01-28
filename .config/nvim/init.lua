@@ -20,7 +20,8 @@ require("user.indentline")
 require("user.alpha")
 require("user.lsp")
 require("user.dap")
-
+require("user.nvim-notify")
+-- vim.notify = require("notify")
 -- Lua配置随机颜色
 random_color = {
 	"gruvbox",
@@ -34,7 +35,6 @@ random_color = {
 	"angr",
 	"deep-space",
 	"dogrun",
-	"github",
 	"gotham",
 	"parsec",
 	"hybrid",
@@ -47,7 +47,6 @@ random_color = {
 	"paramount",
 	"pink-moon",
 	"purify",
-	"pyte",
 	"rakr",
 	"seoul256",
 	"sierra",
@@ -62,5 +61,6 @@ random_color = {
   "darkplus"
 }
 math.randomseed(os.time())
-local mycolor = random_color[math.random(37)]
+local mycolor = random_color[math.random(35)]
 vim.cmd("colorscheme " .. mycolor)
+vim.notify("The colorscheme is " .. mycolor)

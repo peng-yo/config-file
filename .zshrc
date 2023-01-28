@@ -105,6 +105,7 @@ alias la="ls -A"
 alias ll="ls -lha"
 alias lla="ll -A"
 alias bi="brew install"
+alias b="brew"
 alias py="python3"
 alias op=open
 alias g=git
